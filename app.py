@@ -1,6 +1,10 @@
 import streamlit as st
 from groq_client import GroqClient
 import time
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Set page configuration
 st.set_page_config(
